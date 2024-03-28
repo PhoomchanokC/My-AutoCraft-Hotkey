@@ -1,7 +1,4 @@
 ﻿#Requires AutoHotkey v2.0
-
-
-
 MyGui := Gui()
 MakeGui(crafting){
     MyGui := Gui()
@@ -21,12 +18,8 @@ MakeGui(crafting){
     Send "!{Tab}"
     sleep(100)
 }
-
 MakeGui("not running")
 Esc::ExitApp
-
-
-
 0::
 {  
   
@@ -40,9 +33,7 @@ Esc::ExitApp
         }
             send "{1}"
             sleep 45000
-        
     }
+return
 }
 
-
-return
